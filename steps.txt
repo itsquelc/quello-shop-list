@@ -1,0 +1,39 @@
+Configurando GIT
+git config --global user.name itsquelc
+git config --global user.email raquelnunescirino@gmail.com
+
+Criar o projeto
+npx create-expo-app quelloShopList
+
+cd quelloShopList
+
+3º passo - instalar o router
+npx expo install expo-router react-native-safe-area-context react-native-screens expo-linking expo-constants expo-status-bar
+
+Executar o projeto  com celular
+npx expo start --localhost --android
+
+configurar o router
+abrir package.json e alterar a chave main
+"main": "expo-router/entry",
+
+abrir app.json e incluir a linha:
+"scheme": "quelloShopList",
+
+recarrega o projeto:
+r 
+
+criar pasta src - dentro da src, criar a pasta app
+
+Adicionar o pacote para a execução ma WEB
+npx expo install react-dom react-native-web @expo/webpack-config
+
+Executar o projeto
+npx expo start
+
+Restaurar o projeto
+npm i
+
+index.js para criar componente
+baixar es7 +native...
+rnf
