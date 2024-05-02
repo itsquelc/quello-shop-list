@@ -7,6 +7,9 @@ npx create-expo-app quelloShopList
 
 cd quelloShopList
 
+rodar o projeto
+npm i
+
 3º passo - instalar o router
 npx expo install expo-router react-native-safe-area-context react-native-screens expo-linking expo-constants expo-status-bar
 
@@ -28,12 +31,11 @@ criar pasta src - dentro da src, criar a pasta app
 Adicionar o pacote para a execução ma WEB
 npx expo install react-dom react-native-web @expo/webpack-config
 
-Executar o projeto
-npx expo start
-
-Restaurar o projeto
-npm i
-
 index.js para criar componente
 baixar es7 +native...
 rnf
+
+
+rodar projeto no navegador
+npx expo install react-dom react-native-web @expo/metro-runtime
+npx expo start
