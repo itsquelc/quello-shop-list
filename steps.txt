@@ -38,3 +38,9 @@ npx expo install react-dom react-native-web @expo/webpack-config
 index.js para criar componente
 baixar es7 +native...
 rnf
+
+? - se é verdadeiro
+! - não
+: - se nao
+
+npx expo install @react-native-async-storage/async-storage
